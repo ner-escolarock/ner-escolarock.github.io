@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /gestao.html
+Disallow: /thanks.html
+Disallow: /teste.php
+
+Sitemap: https://ner-escolarock.github.io/sitemap.xml
