@@ -297,6 +297,31 @@
     justify-content: center;
   }
 }
+
+/* === FIX CARDS MESMO TAMANHO - NER - COLAR ANTES DO </style> === */
+.professores-grid {
+  align-items: stretch;
+}
+.professor-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.professor-img-wrap {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: #000;
+  width: 100%;
+}
+.professor-img,
+.professor-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
   </style>
 
   <script type="application/ld+json">
